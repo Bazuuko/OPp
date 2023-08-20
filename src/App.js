@@ -338,6 +338,7 @@ function App() {
             >
               FAQ
        </s.TextNav>
+</div>
            <div className="option3" style={{marginLeft:"80px", marginTop: "80px"}} onClick={handleTelegram} >
           <StyledImgNav
         src={"/config/images/tg.png"}
