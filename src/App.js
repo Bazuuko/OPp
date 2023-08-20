@@ -430,7 +430,7 @@ function App() {
               letterSpacing: 12,
             }}
           >
-            Mint <b class="live">live</b> 
+            Mint live
           </s.TextTitle>
 
           {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
