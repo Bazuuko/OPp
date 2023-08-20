@@ -305,7 +305,23 @@ function App() {
         />
           </div>
           
-          <div className="bar" style={{display:"flex", marginLeft: "800px"}}>
+         <div className="bar" style={{display:"flex", marginLeft: "0px"}}>
+
+          <div className="option2" style={{marginLeft:"400px"}}>
+          <s.TextNav
+            style={{
+              textAlign: "center",
+              fontSize: 30,
+              fontWeight: "bold",
+              letterSpacing: 4,
+              color: "var(--accent)",
+              marginTop: "80px",
+              cursor: "pointer"
+              }}
+            >
+              MY NFTS
+       </s.TextNav>
+          </div>
 
           <div className="option2" style={{marginLeft:"80px"}}>
           <s.TextNav
