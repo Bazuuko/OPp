@@ -87,6 +87,9 @@ export const StyledImg = styled.img`
   transition: width 0.5s;
 `;
 
+export const StyledImgNav = styled.img`
+`;
+
 export const StyledImg2 = styled.img`
   border-radius: 20px;
   @media (min-width: 1000px) {
@@ -147,7 +150,7 @@ function App() {
     },
     {
       title: "I've already minted... now what?",
-      content: `Welcome to our community! now you are part of the world of the Punks on the opBNB Chain! As a holder you will have access to the presale of our next $opPUNK token which will be used on our future NFT staking. Stay tuned!`
+      content: `Welcome to our community! now you are part of the world of the Punks on the opBNB Chain! You will be able to see your NFTs soon on our wallet viewer but for now you can view it on Metamask! As a holder you will have access to the presale of our next $opPUNK token which will be used on our future NFT staking. Stay tuned!`
     },
     
   ];
@@ -258,16 +261,16 @@ function App() {
     ref.current?.scrollIntoView({behavior: 'smooth'});
   };
 
-  const handleTwitter = () => {
+ const handleTwitter = () => {
     window.open(
-      'https://twitter.com/PunksShibarium',
+      'https://twitter.com/opPunksBNB',
       '_blank'
     );
   };
 
   const handleTelegram = () => {
     window.open(
-      'https://t.me/PunksShibarium',
+      'https://t.me/opBNB_punks',
       '_blank'
     );
   };
@@ -335,6 +338,25 @@ function App() {
             >
               FAQ
        </s.TextNav>
+           <div className="option3" style={{marginLeft:"80px", marginTop: "80px"}} onClick={handleTelegram} >
+          <StyledImgNav
+        src={"/config/images/tg.png"}
+        style={{
+          width: "100%",
+          cursor: "pointer",
+        }}
+        
+        />
+          </div>
+
+          <div className="option3" style={{marginLeft:"80px", marginTop: "80px"}} onClick={handleTwitter} >
+          <StyledImgNav
+        src={"/config/images/tw.png"}
+        style={{
+          width: "100%",
+          cursor: "pointer",
+        }}
+        />
           </div>
           </div>  
        </div>
