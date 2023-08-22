@@ -275,6 +275,12 @@ function App() {
     );
   };
 
+const handleMyNft= () => {
+    window.open(
+      'https://t.me/opBNB_punks'
+    );
+  };
+
 
   return (
     <s.Screen>
@@ -307,7 +313,7 @@ function App() {
           
          <div className="bar" style={{display:"flex", marginLeft: "0px"}}>
 
-          <div className="option2" style={{marginLeft:"400px"}}>
+          <div className="option2" style={{marginLeft:"400px"}} onClick={handleMyNft}>
           <s.TextNav
             style={{
               textAlign: "center",
