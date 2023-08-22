@@ -277,7 +277,7 @@ function App() {
 
 const handleMyNft= () => {
     window.open(
-      'https://t.me/opBNB_punks'
+      'https://wallet.opbnbpunks.net/'
     );
   };
 
